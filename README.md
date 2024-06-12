@@ -16,6 +16,8 @@ Irrespective of the specified directions, any combination $⟨u, o, c⟩$ where 
 
 Using this guideline, researchers can effectively identify and evaluate potential research subjects that align with their interests, expertise, and the broader objectives of their research endeavors.
 
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Triangular%20Flag.png" alt="Triangular Flag" width="15" height="15" />  <mark>_**Note:** This repository is a work in progress and is updated on a daily basis. The content is continuously refined and expanded to reflect the latest insights and developments. Please check back regularly for the most current information and feel free to contribute your ideas and suggestions._</mark>
+
 ## Table of Contents
 
 2. [Directions](#directions)
@@ -29,99 +31,131 @@ Using this guideline, researchers can effectively identify and evaluate potentia
 ### Integrated Communications, Computing, and Sensing (CCS) in 6G
 
 1. **Integrated Sensing And Communication (ISAC)**
-   - ISAC for Unmanned Aerial Vehicles (UAVs)
-   - ISAC for vehicular networks
-   - Utilizing intelligent omni-surfaces with sensing capabilities.
+    - ISAC for Unmanned Aerial Vehicles (UAVs)
+    - ISAC for vehicular networks
+    - Utilizing intelligent omni-surfaces with sensing capabilities
 2. **Integration of Internet of Everything (IoE) and 6G CCS**
-3. **Integration of Internet of Intelligent Thing (IoIT) and 6G CCS**
+3. **Integration of Internet of Intelligent Things (IoIT) and 6G CCS**
 4. **Integrated CCS for Internet of Robots (IoR)**
-   - Robotics-as-a-Service towards "remote-controlled economy"
+    - Robotics-as-a-Service towards "remote-controlled economy"
 5. **Integrated CCS for Internet of Nano-Things (IoNT)**
-   - Enabling nano-bio-sensing
+    - Enabling nano-bio-sensing
 6. **Integration of CCS and localization**
-7. **Integrating Reconfigurable Intelligent Surface (RIS) and CCS**
-8. **Serverless Computing or Function-as-a-Service (FaaS)**
-   - Cloud computing model where cloud providers manage the infrastructure needed to run code, allowing developers to focus on writing and deploying functions without server management.
+7. **Integrating Reconfigurable Intelligent Surfaces (RISs) and CCS**
+8. **Serverless computing or Function-as-a-Service (FaaS)**
+    - Serverless computing, also known as FaaS, is a cloud computing model where cloud providers manage the infrastructure needed to run code, allowing developers to focus solely on writing and deploying functions without worrying about server management. In serverless computing, developers upload their code as functions to the cloud provider's platform, and the platform automatically handles the provisioning, scaling, and management of the underlying infrastructure required to execute those functions.
+    - A simple example of serverless computing is a web application that needs to resize images uploaded by users. Instead of setting up and managing a server to constantly monitor and process image uploads, a developer can create a function that listens for new image uploads, resizes the images, and then stores them back in the storage system. When an image is uploaded, the cloud provider's platform automatically triggers the function to execute, scales it based on the workload, and shuts it down once the task is completed. This allows developers to focus on writing the image resizing logic without worrying about server provisioning or maintenance.
+    - Exactly comparable to what we have accomplished thus far. However, it is possible to rebrand our works using this new terminology.
 9. **Integrated space-air-ground networks**
-   - Hierarchical communication system forming a constellation of Non-Terrestrial Networking (NTN) satellites, High Altitude Platforms (HAPs), and Terrestrial Networking (TN) domains.
+    - This integration has the potential to create a hierarchical communication system, forming a constellation of Non-Terrestrial Networking (NTN) satellites, High Altitude Platforms (HAPs), and Terrestrial Networking (TN) domains. In this system, users and resources (such as computing nodes) are linked through HAPs (such as UAVs) at one level, while HAPs are connected through NTN satellites (such as Geostationary Satellites (GEO)) at another level.
+    - One crucial factor to consider is the efficient sharing of frequencies, which can be improved by designing this integration to be RIS-aided.
+    - Pragmatic (Massive)-Multiple-In Multiple-Out (MIMO) and intra/inter-system interference mitigation techniques are also useful for such integration.
+    - All of these platforms, whether they are non-terrestrial, high-altitude, or terrestrial, have the capability to be equipped with computing resources designed for task offloading.
+    - The final destination: deep space networks or the interplanetary Internet?
 
 ### Spectrum Management in 6G
 
-1. **Intelligent Multiple Access**
-   - Multiple access considering Multiple-In Multiple-Out (MIMO) at both sender and receiver sides.
-   - Multiple access considering RIS and Reconfigurable Holographic Surface (RHS).
-2. **AI-native Air Interface**
-3. **Computation Over-the-Air (OTA)**
-4. **Handover Management for NTN**
+1. **Intelligent multiple access**
+    - Multiple access considering MIMO at both sender and receiver sides.
+    - Multiple access considering RISs and Reconfigurable Holographic Surfaces (RHSs).
+2. **AI-native air interface**
+3. **Computation Over The Air (OTA)**
+4. **Handover management for NTN**
 5. **Rate Splitting Multiple Access (RSMA) in 6G**
-   - RSMA for multi-user/multi-cell multi-antenna networks utilizing networked (massive) MIMO.
-   - RSMA-based robust interference management.
-   - RSMA to generalize existing multiple access strategies.
-6. **Symbiotic Communications**
+    - RSMA for multi-user/multi-cell multi-antenna networks utilizing networked (massive) MIMO.
+    - RSMA-based robust interference management
+    - RSMA to generalize existing multiple access strategies
+6. **Symbiotic communications**
 
-### 6G for AI/ML
+### 6G for Artificial Intelligence (AI)/Machine Learning (ML)
 
-1. **Orchestrating Big AI/ML Models**
-   - Deploying large-scale AI/ML models to enable complex, emerging services faces numerous challenges.
-2. **Integrating Network, Computing, and Learning**
-   - Orchestrating 6G resources for AI/ML techniques through:
-     - Choosing an appropriate AI/ML strategy (centralized, distributed, or federated learning).
-     - Allocating computing nodes and capacity to execute AI/ML tasks efficiently.
-     - Determining network paths to facilitate the exchange of necessary messages.
+1. **Orchestrating big AI/ML models**
+    - Deploying large-scale AI/ML models to enable complex, emerging services faces numerous challenges. These include the substantial volume of training data required, as well as the computation and transmission of large-scale model parameters. Moreover, due to the distributed nature of data and computing resources, deploying such implementations often necessitates collaboration among numerous network and computing resources for tasks like training, inference, and task accomplishment. For example, mobile AI-Generated Content (AIGC) is an emerging service used for various applications such as ChatGPT and DALL-E. These models typically contain billions of parameters, making their deployment on the edge challenging due to limited resource capacity. Furthermore, deploying these models in core clouds and managing the large-scale distributed data required for training introduces significant transmission latency. Another challenge lies in ensuring the adaptability of these models to dynamic environments, addressing issues of scalability and real-time responsiveness. Hence, there's a need to explore novel network/computing designs to support the deployment of large AI/ML models. Integrating network, computing, and learning offers a promising solution to address these challenges.
+    - This involves orchestrating 6G resources for AI/ML techniques through: 1) choosing an appropriate AI/ML strategy (centralized, distributed, or federated learning), 2) allocating computing nodes and capacity to execute AI/ML tasks efficiently, and 3) determining network paths between consumers and data sources, as well as AI/ML tasks, to facilitate the exchange of necessary messages. These three steps must be carried out while taking into account the state information of network/computing resources, as well as the state of AI/ML training/inference tasks, in order to ensure End-to-End (E2E) quality.
+    - In the case of Collaborative Learning (ColL), the impact of user/resource mobility or interference on resource-efficient collaborative learning can be investigated.
+    - Moreover, game-theoretic approaches can be designed incentivizing resource-limited nodes to participate in the collaborative learning process.
 
 ### Semantic Communications in 6G
 
-1. **End-to-End (E2E) Semantic Communication System Design**
-   - Resource management for semantic communications.
-   - Efficient/scalable neural network architectures and training algorithms for semantic communications.
-2. **Networking Aspects and Protocols for Goal-oriented Semantic Communications**
-3. **Freshness vs. Value Perception Tradeoffs in Semantic Communications**
-4. **Precision vs. Cost Tradeoffs in Semantic Communications**
-5. **Semantics-empowered Resource Allocation and Management**
-6. **Semantic Communications for Extended Reality (XR)/Holographic Communications**
-7. **Semantic Communications to Enable the Metaverse**
-8. **Social-aware Networking Algorithms, Techniques, and Social-aware Communication Systems**
-9. **Cross-layer Communications and Network Management for Affective Sensing**
+Inspired by the classic information theory, the design of a communications system or architecture mainly involves three different levels of problems, namely, (i) transmission of symbols (the technical problem); (ii) semantic exchange of transmitted symbols (the semantic problem); (iii) effect of semantic information exchange (the effectiveness problem). In contrast to the Shannon paradigm whose underlying principle is to guarantee the correct reception of each single transmitted packet regardless of its meaning (i), semantic communication is concerned with the problem of how transmitted symbols convey a desired meaning to the destination, as well as how effectively the received meaning affects the action in a desired way (ii and iii). By communicating the meaning or semantics of the data, semantic communication holds the promise of utilizing resources significantly more efficiently. To build a pathway to semantic communications, the subsequent topics may be considered.
+
+1. **E2E semantic communication system design**
+    - Resource management for semantic communications
+    - Efficient/scalable neural network architectures and training algorithms for semantic communications
+2. **Networking aspects and protocols for goal-oriented semantic communications**
+3. **Freshness vs. value perception tradeoffs in semantic communications**
+4. **Precision (or other quality metrics) vs. cost tradeoffs in semantic communications**
+5. **Semantics-empowered resource allocation and management**
+    - Goal-oriented communications for distributed/edge learning
+6. **Semantic communications for eXtended Reality (XR)/holographic communications**
+    - Considering XR/holographic traffic characteristics and connectivity requirements.
+7. **Semantic communications to enable the Metaverse**
+    - Metaverse network architecture integrating human factors
+8. **Social-aware networking algorithms, techniques and social-aware communication systems**
+    - Leveraging social awareness can be instrumental in managing communication systems. By understanding the dynamics of social relationships, including close ties, shared interests, and community affiliations, it becomes possible to predict and influence user interactions. Researchers have successfully represented these interactions using graph models, identifying patterns of trust, community structures, influential users, and information flow. Moreover, the intertwining of social and spatial dimensions highlights the significance of physical proximity in fostering social connections, both online and offline. Therefore, integrating insights from online social networks and real-world interactions can significantly impact various aspects of network management, including traffic optimization and resource allocation.
+9. **Cross-layer communications and network management for affective sensing**
+    - Affective sensing, also known as emotion sensing, refers to the technology and methodologies used to detect, interpret, and analyze human emotions. This involves capturing data from various sources such as facial expressions, voice tone, body language, physiological signals (like heart rate or skin conductance), and even text analysis to infer emotional states.
+    - In communication systems and network management, affective sensing can have several implications. For example, affective sensing can also be used in network management to detect anomalies or issues in communication networks. For example, sudden spikes in frustration levels during video calls could indicate network congestion or poor call quality, prompting network orchestrators to take corrective action.
 
 ### Experimentation in Large-Scale Testbeds
 
-1. **Constructing a Testbed for Experimental Investigation of Research Findings**
-   - Validating research outcomes via theoretical analysis and computer simulations alone carries the risk of using models that fall short of capturing real-world circumstances.
+1. **Constructing a testbed for experimental investigation of research findings**
+    - Validating research outcomes via theoretical analysis and computer simulations alone carries the risk of using models that fall short of capturing real-world circumstances, including protocol aspects and hardware impairments. These shortcomings in such evaluation methodologies may result in misleading conclusions about the real-world performance of new technology.
 
 ### Quantum-based Systems
 
-1. **Designing Quantum Internet (QI) Architectures**
-2. **Resource Allocation Framework for QI**
-   - Quantum routing
-   - Distributed quantum computation over quantum cloud.
-3. **Designing Hybrid Classical-Quantum Systems**
-4. **Network Synchronization Solutions**
-5. **Quantum AI/ML for QI**
-6. **Integrated NTN and TN to Enable QI**
-7. **Ad hoc Quantum UAV Network Design**
-8. **Quantum Internet of Space Things (IoST)**
-   - Satellite Quantum Key Distribution (QKD)
-   - Ad hoc quantum satellite network design
+1. **High-dimensional Quantum Internet (QI)**
+2. **Designing QI architectures**
+3. **Resource allocation framework for QI**
+    - Quantum routing
+    - Distributed quantum computation over quantum cloud
+4. **Designing hybrid classical-quantum systems**
+5. **Network synchronization solutions**
+6. **Quantum AI/ML for QI**
+7. **Integrated NTN and TN to enable QI**
+    - QI aims for reliable generation, transmission, and manipulation of quantum states for communication. Future QI is envisioned as an entangled network structure, relying on quantum entanglement and teleportation. Challenges remain in creating entanglement over long distances, with free-space quantum links and satellite-ground station links being explored. Satellites, particularly Low-Earth-Orbit (LEO) constellations, are crucial for a global QI. A combination of quantum satellites and UAVs holds promise for advancing QI on a global scale.
+8. **Ad hoc quantum UAV network design**
+9. **Quantum Internet of Space Things (IoST)**
+    - Satellite Quantum Key Distribution (QKD)
+    - Ad hoc quantum satellite network design
 
 ### Energy/Power Harvesting/Transfer in 6G
 
-1. **Designing Near-zero Energy Communication Systems**
-   - Imagine a world of ambient Internet of Things (IoT) devices with ultra-low complexity and power consumption.
-   - Address challenges related to energy harvesting time and transmission energy.
+1. **Designing near-zero energy communication systems**
+    - Imagine a world of ambient IoT devices. To maximize the throughput (amount of data sent) of these devices, the following challenges need to be addressed:
+        - Longer energy harvesting time allows the device to harvest more energy, enabling larger data packets to be transmitted. However, this translates to less time for actual transmission, potentially leading to delays and lower throughput. On the other hand, shorter energy harvesting time leaves more time for transmission. However, with limited energy harvested, the device might only be able to send smaller and limited number of data packets, ultimately reducing overall throughput. The key is to find the optimal waiting time that balances energy harvesting with data transmission, maximizing the amount of data sent by these ambient IoT devices.
+        - These ambient IoT devices can also be controlled in terms of their mobility and positioning. We can strategically instruct them to expend some energy on moving closer to the base station. This strategy aims to reduce the transmission energy required to send data, as shorter distances require less power. However, this introduces another trade-off: movement energy consumption vs. transmission energy consumption. The optimal approach involves finding the sweet spot that minimizes the total energy expenditure. This might involve calculating the combined energy costs of movement and transmission based on the device's current location and the distance to the base station.
+
+---
 
 ## Use Cases
 
-1. **The Metaverse**
-   - Redefining communication through immersive digital environments where individuals engage via virtual avatars in real-time.
-2. **Ambient IoT**
-   - Battery-less devices relying on harvesting energy from their environment.
-3. **Internet of Everything (IoE)**
-4. **Internet of Intelligent Thing (IoIT)**
-5. **Internet of Robots (IoR)**
-6. **Internet of Nano-Things (IoNT)**
-7. **Vehicle to Everything (V2X)**
-8. **Internet of Space Things (IoST)**
-9. **Crowd Sourcing**
+### The Metaverse
+
+1. The Metaverse represents a paradigm shift in human interaction, poised to redefine communication through the creation of immersive digital environments where individuals engage via virtual avatars in real-time. This transformative landscape is constructed atop a globally distributed computing and communication infrastructure, leveraging not only mobile devices but also edge and cloud servers. Its foundation demands symmetrical high-resolution content delivery and ultra-low, consistent network latency to facilitate hyper-interactivity, surpassing the capabilities of current communication and network structures. For instance, while 720p resolution suffices for video streaming on smartphones, the Metaverse demands Retina-level resolution for head-mounted displays, mere centimeters from the eyes. Moreover, rendering complex scenes in real-time among avatars necessitates even greater bandwidth and lower latency.
+2. One of the Metaverse's defining characteristics is its emphasis on human presence as the primary participants, presenting both novel challenges and opportunities for network design. Users traverse and inhabit various virtual landscapes seamlessly, requiring a deep understanding and adaptation to evolving consumer behaviors and expectations. Anticipating and responding to human activities within the Metaverse is crucial for optimizing network configurations and resource allocation.
+3. Achieving this entails a fundamental overhaul of human-centric communication and networking for the Metaverse. This involves integrating data analysis and prediction of human behavior, dynamic network management, and robust privacy and security measures to maximize system efficiency and enhance user experiences. Numerous technical hurdles persist across wireless access networks and core infrastructures, spanning from the physical to the application layers.
+4. Addressing these challenges mandates a revolutionary leap in human-centric communication and networking technologies, particularly within the imminent 5G and forthcoming network infrastructures.
+
+### Ambient Internet of Things (IoT)
+
+1. Ambient IoT are battery-less devices (or with limited energy storage, yet no need for replacement or recharge) with ultra-low complexity and ultra-low power consumption. These devices rely on harvesting energy from their environment (light, vibrations, etc.) before they can transmit data.
+
+### Internet of Everything (IoE)
+
+### Internet of Intelligent Thing (IoIT)
+
+### Internet of Robots (IoR)
+
+### Internet of Nano-Things (IoNT)
+
+### Vehicle to Everything (V2X)
+
+### Internet of Space Things (IoST)
+
+### Crowd Sourcing
+
+---
 
 ## Objectives
 
@@ -136,37 +170,102 @@ Using this guideline, researchers can effectively identify and evaluate potentia
 
 ### Non-functional
 
-1. Architecture design
-2. Performance evaluation
-3. Admission/congestion control
-4. Prediction
-5. Sustainability
-6. Localization
+In addition to (or alongside) optimizing an objective function, the research problem can be defined with the goal of achieving one of the following:
+
+1. **Architecture design**
+    - What is the addressed service?
+    - What motivates and justifies the need for this service?
+    - What are the building blocks (including technologies and capabilities) lying at the core of the solution that will enable such a service?
+    - What is the level of automation involved in the solution? Is this a zero touch design? If so, the manner in which AI/ML are employed to implement closed-loop controls in the solution should be specified.
+    - Does the proposed solution for provisioning the said service fit with existing infrastructure? Is it supported by the existing technology?
+    - What are the technical challenges that the proposed solution intends to face throughout the design, implementation and deployment of the solution to enable the provisioning of the considered service and support its efficient and effective operation?
+    - What are the technical risks underlying the provisioning of the considered service as well as the feasibility and costs of implementation and deployment of the solution?
+    - How to overcome the above-mentioned challenges and risks?
+    - What are the high-level expectations of achievements for the proposed solution?
+    - Which metrics are used to evaluate if the solution is provisioned successfully? How are these metrics measured?
+    - How is the outcome differing from other alternative solutions? Are the achieved gain and the necessary costs acceptable in the context of real-world scenarios?
+    - What are the limits of the proposed solution?
+
+2. **Performance evaluation**
+    - End-to-End (E2E) performance: E2E evaluation taking into account the performance decrease caused by the AI/ML orchestration or decision-making techniques.
+    - Scalability/Complexity
+        - Coverage
+        - Density
+        - Interference
+
+3. **Admission/congestion control**
+4. **Prediction**
+    - User behavior and movement patterns
+    - Traffic prediction and classification
+
+5. **Sustainability**
+    - Environmental, societal and economical. Some aspects are functional, like energy efficiency or cost, while others are non-functional, such as the share of resources with a reproducible energy supply or the level of users' data sharing.
+
+6. **Localization**
+
+---
 
 ## Constraints
 
 ### System Parameters
 
-1. Network: Terrestrial Networking (TN), High Altitude Platforms (HAPs), Non-Terrestrial Networking (NTN)
-2. Computing: User-side, edge, and cloud computing resources
-3. Dynamicity: Mobility and time-varying topology
-4. Density: Ultra-dense networking
-5. Spectrum: Multiple access technologies and protocols
-6. Semantic-awareness
-7. Quantum-enabled: Quantum Networks (QN)
+1. **Network**: The network infrastructure may consist of the following domains, different administrative domains with conflicting interests on one hand and potential for cooperation on the other:
+    - **Terrestrial Networking (TN)**: TNs encompass communication infrastructures on Earth's surface, including:
+        - Radio networks provided by Ground Base Stations (GBSs)
+        - Wired networks
+        - Optical networks
+        - These networks facilitate communication among users within terrestrial locations, covering various environments like urban areas, rural regions, and suburban areas.
+    - **High Altitude Platforms (HAPs)**: A HAP refers to a stationary or quasi-stationary platform that operates at altitudes higher than traditional terrestrial infrastructure but lower than satellites. These platforms are typically deployed in the Earth's atmosphere, often at altitudes ranging from 17 to 22 kilometers (about 55,000 to 72,000 feet). HAPs come in diverse forms, such as tethered balloons, airships, or UAVs, and are outfitted with communication equipment. They serve as Arial Base Stations (ABSs), extending the coverage and capacity of radio networks, especially in remote or underserved regions. Functioning as relay stations, these ABSs can bridge communication gaps between GBSs.
+    - **Non-Terrestrial Networking (NTNs)**: NTNs involve communication systems that operate beyond Earth's surface, often in space. They typically include various types of satellites as key components of their infrastructure. These satellites can be categorized into different types based on their orbits and functions:
+        - **Geostationary Satellites (GEO)**: These satellites orbit the Earth at a fixed position relative to the planet's surface. They remain in a fixed position above the equator, allowing them to provide continuous coverage to a specific geographic area.
+        - **Low-Earth-Orbit (LEO)**: LEO satellites orbit the Earth at lower altitudes compared to GEO satellites, typically at altitudes ranging from a few hundred to a few thousand kilometers. They move much faster than GEO satellites and complete orbits around the Earth in a relatively short period, typically within a couple of hours. LEO satellites offer lower latency compared to GEO satellites but require a larger number of satellites to achieve global coverage due to their lower altitude.
+        - **Medium Earth Orbit (MEO)**: MEO satellites orbit the Earth at altitudes higher than LEO satellites but lower than GEO satellites. They typically orbit at altitudes ranging from around 8,000 to 20,000 kilometers.
+        - **Highly Elliptical Orbit (HEO)**: HEO satellites follow highly elliptical orbits, spending the majority of their time at high altitudes over specific regions of the Earth.
+
+        NTN may leverage one or a combination of these satellite types to establish a global or regional communication network, depending on the requirements of the use case and the desired coverage area.
+
+    - In addition, the following adjustments can be taken into consideration:
+        - The network devices with non-physical interfaces (GBSs, HAPs, and satellites) have the capability to be outfitted with MIMO/Large-scale antennas. MIMO antennas allow base stations to simultaneously transmit and receive multiple data streams over the same frequency band, effectively multiplying the capacity and improving the efficiency of wireless communication systems. Large-scale antenna systems, also known as massive MIMO or large-scale MIMO, involve deploying a large number of antennas, often hundreds or even thousands, at the base station. Unlike traditional MIMO systems, where a small number of antennas are used, large-scale antenna systems exploit the high spatial degrees of freedom offered by massive antenna arrays. This allows for more efficient spatial processing techniques, such as precoding and beamforming, to be applied. Large-scale antenna systems are capable of serving multiple users simultaneously with high spectral efficiency and improved coverage, making them well-suited for dense urban environments and high-capacity scenarios.
+        - These devices have the capability to integrate RISs and RHSs. These surfaces are adept at manipulating electromagnetic signals, either by reflecting or refracting them, through dynamic adjustments of their phase shifts. RHSs possess the ability to actively generate beams in specified directions using wave-based beamforming techniques. Meanwhile, RISs can passively shape wireless propagation environments into desired configurations, achieving this in a cost-effective and energy-efficient manner.
+        - In the wireless domains of these networks, Coordinated Multiple Point (CoMP) can be used coordinating the transmission and reception of signals across multiple Base Stations (BSs). By synchronizing the operation of adjacent or overlapping cells and leveraging the spatial diversity provided by multiple transmission points, CoMP enables seamless interference mitigation among neighboring base stations. CoMP techniques can be applied in various scenarios, including coordinated scheduling, joint transmission and reception, and coordinated beamforming, depending on the specific requirements and network conditions. CoMP is particularly beneficial in dense urban environments, where interference and signal degradation are common due to the presence of multiple cells and high user density.
+
+2. **Computing**: The computing infrastructure may consist of the following domains, different administrative domains with conflicting interests on one hand and potential for cooperation on the other:
+    - User-side computing resources
+    - Edge computing resources
+    - Cloud computing resources
+
+3. **Dynamicity**
+    - Mobility
+        - Time-varying topology
+
+4. **Density**
+    - Ultra-dense networking
+    - The broadness of the space-time scale
+
+5. **Spectrum**
+    - (Multiple) Access technologies and protocols
+        - RSMA is a technique in wireless communication systems that enables multiple users to share the available spectrum resources efficiently. In RSMA, each user's data rate is split into multiple layers, allowing different portions of the user's data to be transmitted over separate subchannels simultaneously. This splitting of data rates enables the system to allocate resources optimally, maximizing the overall throughput and spectral efficiency. RSMA is particularly advantageous in scenarios with heterogeneous user requirements or varying channel conditions, as it allows for flexible resource allocation tailored to each user's needs.
+    - Access types: For example, full or prioritized
+    - Active bands: Including terahertz communications
+    - Interference
+
+6. **Semantic-awareness**
+7. **Quantum-enabled**
+    - Quantum Networks (QNs)
 
 ### Resource Allocation
 
-1. Channel (frequency band) assignment
-2. Beamforming
-3. Channel estimation
-4. Transmit power control
-5. Slicing
-6. Congestion control
-7. Multipath transmissions
-8. Path selection
-9. User/request/traffic prioritization
-10. Migration (or roaming, handover, etc.)
+1. **Channel (frequency band) assignment** This can be achieved using the Terahertz band, which ranges from 0.1 to 10 THz.
+2. **Beamforming**
+3. **Channel estimation** This can be achieved in a collaborative distributed manner.
+4. **Transmit power control**
+5. **Slicing**
+    - Spatial slicing: Consider a scenario where a user can be served by single or multiple Transmit and Receive Points (TRPs) with the corresponding enhancements in channel feedback and control and data communications.
+6. **Congestion control (capacity monitoring)**
+7. **Multipath transmissions**
+8. **Path selection**
+9. **User/request/traffic prioritization**
+10. **Migration (or roaming, handover, etc.)**
 
 ### Performance Metrics
 
@@ -176,8 +275,10 @@ Using this guideline, researchers can effectively identify and evaluate potentia
 4. Throughput
 5. Energy efficiency
 6. Age of Information (AoI)
+    - It would appear that AoI and semantic communications are intricately intertwined.
 7. Jitter
 8. Task accomplishment metrics
+    - Federated Learning global model loss
 
 ### Capacity Limitation
 
@@ -186,14 +287,31 @@ Using this guideline, researchers can effectively identify and evaluate potentia
 3. Computing capacity allocation of computing resources
 4. Battery power
 
+---
+
 ## Approaches
 
-### AI/ML
+### Artificial Intelligence (AI)/Machine Learning (ML)
 
-1. Learning Layers: Graph Neural Networks (GNNs)
-2. Learning Techniques: Deep Reinforcement Learning (DRL), Generative AI, Explainable AI (XAI), Kolmogorov-Arnold Network (KAN), Neuro-Symbolic AI (NeSy AI)
-3. Learning Strategies: Federated Learning (FL), Distributed Learning (DisL), Centralized Learning (CenL)
-4. Key Considerations: Human-in-the-loop
+1. **Learning Layers**
+    - Graph Neural Networks (GNNs)
+2. **Learning Techniques**
+    - Deep Reinforcement Learning (DRL)
+    - Generative AI: Exploring novel generative AI algorithms for innovative designs and optimization strategies is imperative. These innovations are crucial for supporting emerging mobile services, particularly next-generation mobile systems (6G). The deployment of 6G networks brings forth challenges related to heterogeneity, high dynamics, and large-scale characteristics, thereby underscoring the significance of pre-trained resource control and management.
+    - Few-shot learning
+    - eXplainable AI (XAI): This facilitates the identification of crucial and impactful elements in the decision-making process, which can be utilized for 1) (re)planning resource allocation, or (re)designing low-complexity heuristic algorithms that yield results comparable to AI/ML techniques.
+    - Kolmogorov-Arnold Network (KAN): A KAN is a neural network where activation functions are adjusted during the training phase instead of neural weights. The paradigm can also be very useful for XAI.
+    - Neuro-Symbolic AI (NeSy AI): NeSy AI is an emerging field that attempts to combine the strengths of two different approaches: neural networks (for pattern recognition) and symbolic AI (relying on logical rules and knowledge representation to perform reasoning and problem-solving). While it can be explainable and handle tasks with less data, it can struggle with complex patterns and adapting to new situations. By combining neural network learning with symbolic reasoning, NeSy AI aspires to reduce the need for massive datasets and provide more transparent decision-making processes.
+
+3. **Learning Strategies**
+    - Federated Learning (FL): Over-the-Air (OTT) FL.
+    - Distributed Learning (DisL) (or Collaborative Learning (ColL))
+    - Centralized Learning (CenL)
+
+    We have the option to build DisL/FL agents either on user-side devices or on various computing nodes within the system. Additionally, CenL can be established across different computing nodes on the system side. For instance, decentralized Applications (dApps), which extend the capabilities of AI/ML to edge nodes with limited resources, serve as a promising foundation for implementing these agents within the Open Radio Access Network (O-RAN) ecosystem.
+
+4. **Key considerations**
+    - The concept of "human-in-the-loop" can be applied in situations where users' behaviors repeat in a cyclical manner.
 
 ### Optimization
 
@@ -209,11 +327,14 @@ Using this guideline, researchers can effectively identify and evaluate potentia
 
 ### Game Theory
 
-Further exploration of game-theoretic approaches can be beneficial in addressing the outlined challenges and optimizing the described objectives.
+---
 
-## Glossary
+## Thank You
 
-- **CCS**: Communications, Computing, and Sensing
-- **ISAC**: Integrated Sensing And Communication
+Thanks for exploring potential research directions with me! We hope you find this repository helpful and inspiring as you dive into the world of research. Feel free to fork the repo and make contributions. I will review them as soon as possible and your contributions will be merged into the main repo.
 
- 
+Happy researching!
+
+Thanks for exploring potential research directions with me! We hope you find this repository helpful and inspiring as you dive into the world of research. Feel free to fork the repository and make contributions. I will review them as soon as possible and your contributions will be merged into the main repo.
+
+Happy researching!
