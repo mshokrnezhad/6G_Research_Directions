@@ -329,7 +329,7 @@ In addition to (or alongside) optimizing an objective function, the research pro
 
 ---
 
-## Thank You
+## Thank You <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Folded%20Hands.png" alt="Folded Hands" width="25" height="25" />
 
 Thanks for exploring potential research directions with me! We hope you find this repository helpful and inspiring as you dive into the world of research. Feel free to fork the repo and make contributions. I will review them as soon as possible and your contributions will be merged into the main repo.
 
