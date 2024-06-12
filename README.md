@@ -1,5 +1,9 @@
 # 6G Research Directions
 
+<div align="center">
+  <img src="images/cover.jpg" alt="cover" width="600"/>
+</div>
+
 This document aims to outline a comprehensive guideline for selecting a promising research subject. The document comprises five sections: **directions**, **use cases**, **objectives**, **constraints**, and **approaches**. 
 
 **Directions** discuss possible research trends for systems that go beyond the capabilities of 5G. Each direction is meticulously outlined by:
