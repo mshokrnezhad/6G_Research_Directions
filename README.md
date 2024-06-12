@@ -47,10 +47,10 @@ Using this guideline, researchers can effectively identify and evaluate potentia
     - Serverless computing, also known as FaaS, is a cloud computing model where cloud providers manage the infrastructure needed to run code, allowing developers to focus solely on writing and deploying functions without worrying about server management. In serverless computing, developers upload their code as functions to the cloud provider's platform, and the platform automatically handles the provisioning, scaling, and management of the underlying infrastructure required to execute those functions.
     - A simple example of serverless computing is a web application that needs to resize images uploaded by users. Instead of setting up and managing a server to constantly monitor and process image uploads, a developer can create a function that listens for new image uploads, resizes the images, and then stores them back in the storage system. When an image is uploaded, the cloud provider's platform automatically triggers the function to execute, scales it based on the workload, and shuts it down once the task is completed. This allows developers to focus on writing the image resizing logic without worrying about server provisioning or maintenance.
     - Exactly comparable to what we have accomplished thus far. However, it is possible to rebrand our works using this new terminology.
-9. **Integrated space-air-ground networks**
+9. **Integrated space-air-ground networks (or TN-NTN)**
     - This integration has the potential to create a hierarchical communication system, forming a constellation of NTN satellites, HAPs, and TN domains. In this system, users and resources (such as computing nodes) are linked through HAPs (such as UAVs) at one level, while HAPs are connected through NTN satellites (such as GEO) at another level.
-    - One crucial factor to consider is the efficient sharing of frequencies, which can be improved by designing this integration to be RIS-aided.
-    - Pragmatic (Massive)-MIMO and intra/inter-system interference mitigation techniques are also useful for such integration.
+    - One crucial factor to consider is the efficient sharing of resources (such as frequencies) in terms of cost and energy consumption.
+    - Pragmatic (Massive)-MIMO, intra/inter-system interference mitigation, and integration to be RIS-aided techniques are also useful for such integration.
     - All of these platforms, whether they are non-terrestrial, high-altitude, or terrestrial, have the capability to be equipped with computing resources designed for task offloading.
     - The final destination: deep space networks or the interplanetary Internet?
 
@@ -59,9 +59,10 @@ Using this guideline, researchers can effectively identify and evaluate potentia
 1. **Intelligent multiple access**
     - Multiple access considering MIMO at both sender and receiver sides.
     - Multiple access considering RISs and RHSs.
+    - For integrated TN-NTN networks
 2. **AI-native air interface**
 3. **Computation OTA**
-4. **Handover management for NTN**
+4. **Mobility and handover management for TN-NTN**
 5. **RSMA in 6G**
     - RSMA for multi-user/multi-cell multi-antenna networks utilizing networked (massive) MIMO.
     - RSMA-based robust interference management.
@@ -134,6 +135,8 @@ Inspired by the classic information theory, the design of a communications syste
     - Imagine a world of ambient IoT devices. To maximize the throughput (amount of data sent) of these devices, the following challenges need to be addressed.
     - Longer energy harvesting time allows the device to harvest more energy, enabling larger data packets to be transmitted. However, this translates to less time for actual transmission, potentially leading to delays and lower throughput. On the other hand, shorter energy harvesting time leaves more time for transmission. However, with limited energy harvested, the device might only be able to send smaller and limited number of data packets, ultimately reducing overall throughput. The key is to find the optimal waiting time that balances energy harvesting with data transmission, maximizing the amount of data sent by these ambient IoT devices.
     - These ambient IoT devices can also be controlled in terms of their mobility and positioning. We can strategically instruct them to expend some energy on moving closer to the base station. This strategy aims to reduce the transmission energy required to send data, as shorter distances require less power. However, this introduces another trade-off: movement energy consumption vs. transmission energy consumption. The optimal approach involves finding the sweet spot that minimizes the total energy expenditure. This might involve calculating the combined energy costs of movement and transmission based on the device's current location and the distance to the base station.
+2. **Energy harvesting and power transfer for integrated TN-NTN networks**
+
 
 ## Use Cases
 
