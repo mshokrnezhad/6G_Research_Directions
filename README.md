@@ -258,13 +258,18 @@ In addition to (or alongside) optimizing an objective function, the research pro
 1. **Latency or round-trip delay**
 2. **Reliability/availability**
 3. **Spectrum efficiency**
-4. **Throughput**
-5. **Energy efficiency**
-6. **AoI**
+4. **Connection density**
+5. **Throughput**
+6. **Energy efficiency**
+7. **AoI**
     - It would appear that AoI and semantic communications are intricately intertwined.
-7. **Jitter**
-8. **Task accomplishment metrics**
-    - Federated Learning global model loss
+8. **Jitter**
+9. **Task accomplishment metrics**
+    - Learning
+      - Global model loss
+    - Computer vision
+      - Average Precision (AP)
+      - mean Intersection Over Union (mIoU)
 
 ### Capacity Limitation
 
@@ -328,7 +333,7 @@ In addition to (or alongside) optimizing an objective function, the research pro
 | E2E     | End-to-End                                  | OTA     | Over The Air                             | GEO     | Geostationary Satellites                |
 | FaaS    | Function-as-a-Service                       | OTT     | Over-the-Air                             | QN      | Quantum Network                         | 
 | FL      | Federated Learning                          | QI      | Quantum Internet                         | GBS     | Ground Base Station                     |
-| QKD     | Quantum Key Distribution                    |         |                                          |         |                                         |
+| QKD     | Quantum Key Distribution                    | AP      | Average Precision                        | mIoU    | mean Intersection Over Union            |
 
 ---
 
