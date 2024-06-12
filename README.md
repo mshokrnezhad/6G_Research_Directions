@@ -76,6 +76,14 @@ Using this guideline, researchers can effectively identify and evaluate potentia
     - In the case of ColL, the impact of user/resource mobility or interference on resource-efficient collaborative learning can be investigated.
     - Moreover, game-theoretic approaches can be designed incentivizing resource-limited nodes to participate in the collaborative learning process.
 
+### Large-Models-Driven 6G
+
+1. **Large-models-aided resource allocation and spectrum management**
+2. **Traffic prediction and congestion control using large models**
+3. **Self-organizing networks empowered by large models**
+4. **Automated network configuration and optimization with large models**
+5. **Large models for facilitating network slicing and edge computing**
+
 ### Semantic Communications in 6G
 
 Inspired by the classic information theory, the design of a communications system or architecture mainly involves three different levels of problems, namely, (i) transmission of symbols (the technical problem); (ii) semantic exchange of transmitted symbols (the semantic problem); (iii) effect of semantic information exchange (the effectiveness problem). In contrast to the Shannon paradigm whose underlying principle is to guarantee the correct reception of each single transmitted packet regardless of its meaning (i), semantic communication is concerned with the problem of how transmitted symbols convey a desired meaning to the destination, as well as how effectively the received meaning affects the action in a desired way (ii and iii). By communicating the meaning or semantics of the data, semantic communication holds the promise of utilizing resources significantly more efficient. To build a pathway to semantic communications, the subsequent topics may be considered.
