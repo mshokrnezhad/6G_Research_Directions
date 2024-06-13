@@ -345,7 +345,3 @@ In addition to (or alongside) optimizing an objective function, the research pro
 Thanks for exploring potential research directions with me! We hope you find this repository helpful and inspiring as you dive into the world of research. Feel free to fork the repo and make contributions. I will review them as soon as possible and your contributions will be merged into the main repo.
 
 Happy researching!
-
-Thanks for exploring potential research directions with me! We hope you find this repository helpful and inspiring as you dive into the world of research. Feel free to fork the repository and make contributions. I will review them as soon as possible and your contributions will be merged into the main repo.
-
-Happy researching!
